@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Soviet kernel NATO66613 @ xda-developers
+kernel.string=Carbon Kernel - FENIX by estymaowiec
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -27,6 +27,8 @@ no_block_display=true;
 ## AnyKernel methods (DO NOT CHANGE)
 # import patching functions/variables - see for reference
 . tools/ak3-core.sh;
+
+ui_print "RC VERSION OF KERNEL"
 
 ## AnyKernel boot install
 dump_boot;

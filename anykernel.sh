@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Carbon Kernel - FENIX by estymaowiec
+kernel.string=Axiom Kernel by estymaowiec
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -28,12 +28,12 @@ no_block_display=true;
 # import patching functions/variables - see for reference
 . tools/ak3-core.sh;
 
-ui_print "RC VERSION OF KERNEL"
+ui_print "Alfa Version of kernel"
 
 ## AnyKernel boot install
 dump_boot;
 
-ui_print "Powerrrrrrruppppp! :)"
+ui_print "Woooooooowwwww! :)"
 
 case "$ZIPFILE" in
   *66fps*|*66hz*)
